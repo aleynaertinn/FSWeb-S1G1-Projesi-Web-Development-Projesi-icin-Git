@@ -11,6 +11,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 ## Sorular
 
 1. Git nedir?
+    Versiyon kontrol sistemi (Version Control System) bir proje üzerinde yaptığımız değişiklikleri adım adım kaydeden ve isterseniz bunu internet üzerinde depoda (repository) saklamamızı ve yönetmemizi sağlayan bir sistemdir.
 
 2. Git ile GitHub arasında ne fark var?
 
