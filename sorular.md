@@ -33,7 +33,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
     git pull: yapılan değişiklikleri gözden geçirmenize izin vermeden otomatik olarak birleştirir diyebiliriz.
 
 7. Merge conflict nedir?
-    Banclerin birbirine çakışması.
+    Banclerin birbirine çakışması..
 
 8. Merge conflict'i nasıl çözeriz?
     Conflict yapanı bul gerekli işlemi kaydet ve tekrar git add ve git commit ile commitle. Sonra git merge yapmana gerek kalmaz çünkü sistem merge eder direkt.
