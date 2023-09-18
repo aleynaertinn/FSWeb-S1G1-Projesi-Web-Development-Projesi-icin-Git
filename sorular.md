@@ -28,6 +28,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 
+node -v
 7. Merge conflict nedir?
 
 8. Merge conflict'i nasıl çözeriz?
