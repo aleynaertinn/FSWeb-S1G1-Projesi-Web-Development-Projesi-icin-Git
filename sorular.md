@@ -11,17 +11,29 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 ## Sorular
 
 1. Git nedir?
+    Versiyon kontrol sistemi (Version Control System) bir proje üzerinde yaptığımız değişiklikleri adım adım kaydeden ve isterseniz bunu internet üzerinde depoda (repository) saklamamızı ve yönetmemizi sağlayan bir sistemdir.
 
 2. Git ile GitHub arasında ne fark var?
+    Git bir versiyon kontrol sistemidir. GitHub ise bu versiyon kontrol sistemi ile kullandığımız projeleri depolayabildiğimiz bir portal diyebiliriz.
 
 3. Neden bir branch oluşturuyoruz?
+     Üzerinde çalışılan kaynak kodun bir kopyasını oluşturarak geliştirmelerin orijinal koddan bağımsız olarak ilerlemesini sağlayabilmemiz için.
 
 4. Pull Request'in amacı nedir?
+    açık kaynaklı bir projede katkıda bulunmak isteyen bir kullanıcının, projenin sahibine değişikliklerini inceletmek üzere yaptığı bir taleptir
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+    "git branch" bu komut ile mevcut banchlerimi listelerim
+    "git checkout main" bu komut ile main banchime geçerim
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+    Kısaca cevap vermek gerekirse, git pull önce bir git fetch yapar, sonrasında ise git merge uygular.
+    git fetch: Repomuzu güncel tutmamız gerekiyorsa, ancak dosyalarımızı güncellersek de bozulabilecek bir şeyler varsa fetch kullanmayı tercih ederiz. Bu işlemleri mevcut branchinize entegre etmek için sonrasında merge kullanmalısınız.
+    git merge: değişiklikleri birleştirerek yeni bir commit elde etme.
+    git pull: yapılan değişiklikleri gözden geçirmenize izin vermeden otomatik olarak birleştirir diyebiliriz.
 
 7. Merge conflict nedir?
+    Banclerin birbirine çakışması..
 
 8. Merge conflict'i nasıl çözeriz?
+    Conflict yapanı bul gerekli işlemi kaydet ve tekrar git add ve git commit ile commitle. Sonra git merge yapmana gerek kalmaz çünkü sistem merge eder direkt.
